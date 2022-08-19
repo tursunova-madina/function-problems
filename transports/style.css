@@ -1,0 +1,45 @@
+.container {
+  margin: 50px auto !important;
+}
+
+.cards {
+  width: 800px !important;
+  margin: auto !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+.input {
+  width: 200px !important;
+  height: 50px !important;
+}
+
+.wrapper {
+  margin-top: 50px !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+.wrapper_card {
+  width: 250px !important;
+  height: 250px !important;
+  border: 1px solid gray !important;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+}
+
+.wrapper_card_title {
+ margin-left: 50px !important;
+ margin-top: 50px !important;
+}
+
+.hour{
+    font-size: 20px !important;
+    margin-left: 50px !important;
+    margin-top: 50px !important;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="cards">
+            <h1 class="direction">Direction</h1>
+
+            <input placeholder="Enter number" type="text" class="input form-control p-2 m-75 m-2 text-danger mx-auto"
+                id="direction">
+
+            <button class="btn btn-secondary m-5" onclick="operation()">Count</button>
+        </div>
+
+
+        <div class="wrapper">
+
+            <div class="wrapper_card">
+                <h3 class="wrapper_card_title">By foot</h3>
+                <p id="result_foot" class="hour">N hour</p>
+            </div>
+            <div class="wrapper_card">
+                <h3 class="wrapper_card_title">Bicycle</h3>
+                <p id="result_bi" class="hour">N hour</p>
+            </div>
+            <div class="wrapper_card">
+                <h3 class="wrapper_card_title">Car</h3>
+                <p id="result_car" class="hour">N hour</p>
+            </div>
+            <div class="wrapper_card">
+                <h3 class="wrapper_card_title">Airplane</h3>
+                <p id="result_plane" class="hour">N hour</p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
